@@ -23,6 +23,8 @@ The application enables users to upload energy datasets, visualize analytics thr
 * Bootstrap
 * Axios
 * React Router DOM
+* Jwt Decode
+* React Toastify
 * Recharts
 * React Icons
 
