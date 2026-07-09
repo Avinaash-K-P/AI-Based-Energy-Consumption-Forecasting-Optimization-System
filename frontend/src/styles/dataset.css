@@ -1,0 +1,33 @@
+.upload-panel {
+  background: #ffffff;
+  border: 1px solid #dde3ea;
+  border-radius: 8px;
+  padding: 18px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 18px;
+}
+
+.upload-panel label {
+  font-weight: 600;
+  color: #172033;
+}
+
+.upload-panel input {
+  flex: 1;
+}
+
+.upload-panel button {
+  border: none;
+  background: #2563eb;
+  color: white;
+  padding: 10px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.upload-panel button:disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+}

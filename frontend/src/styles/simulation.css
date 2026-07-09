@@ -1,0 +1,8 @@
+.simulation-filter-panel {
+  grid-template-columns: repeat(3, minmax(160px, 1fr));
+}
+
+.simulation-filter-panel button {
+  width: fit-content;
+  padding: 0 18px;
+}

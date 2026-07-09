@@ -1,0 +1,36 @@
+.alert-list {
+  display: grid;
+  gap: 12px;
+}
+
+.alert-card {
+  background: #ffffff;
+  border: 1px solid #dde3ea;
+  border-left: 5px solid #2563eb;
+  border-radius: 8px;
+  padding: 14px 16px;
+}
+
+.alert-card strong {
+  display: block;
+  text-transform: capitalize;
+  margin-bottom: 6px;
+  color: #172033;
+}
+
+.alert-card p {
+  margin: 0;
+  color: #475467;
+}
+
+.alert-card.high_load {
+  border-left-color: #eab308;
+}
+
+.alert-card.peak {
+  border-left-color: #f97316;
+}
+
+.alert-card.unusual_spike {
+  border-left-color: #dc2626;
+}

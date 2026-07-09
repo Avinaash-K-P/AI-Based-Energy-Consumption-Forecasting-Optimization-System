@@ -1,0 +1,69 @@
+.recommendation-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(240px, 1fr));
+  gap: 14px;
+}
+
+.recommendation-card {
+  background: #ffffff;
+  border: 1px solid #dde3ea;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.recommendation-card-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.recommendation-card-header span {
+  font-weight: 700;
+  color: #172033;
+  text-transform: capitalize;
+}
+
+.recommendation-card p {
+  margin: 0 0 12px;
+  color: #475467;
+  line-height: 1.5;
+}
+
+.recommendation-reason {
+  background: #f8fafc;
+  border: 1px solid #e5eaf1;
+  border-radius: 6px;
+  padding: 10px;
+  color: #667085;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.recommendation-card small {
+  color: #667085;
+}
+
+.priority-pill {
+  padding: 4px 8px;
+  border-radius: 999px;
+  font-size: 12px;
+  text-transform: capitalize;
+  background: #dbeafe;
+  color: #1d4ed8;
+}
+
+.priority-pill.medium {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.priority-pill.high {
+  background: #ffedd5;
+  color: #c2410c;
+}
+
+.priority-pill.critical {
+  background: #fee2e2;
+  color: #b91c1c;
+}
