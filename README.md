@@ -198,24 +198,24 @@ This proactive approach helps organizations reduce energy waste, improve system 
 - GET: energy-consumption/forecast
 - DELETE: energy-consumption/{energy_id}
 
-### Peak Prediction
+### 3. Peak Prediction
 
 - GET: peak-prediction/future
 - GET: peak-prediction/historical-spikes
 
-### Optimization Recommondation
+### 4. Optimization Recommondation
 
 - GET: recommendation/optimization
 
-### Anomalies Detection
+### 5. Anomalies Detection
 
 - GET:  anomalies/detect
 
-### Simulation Scenario
+### 6. Simulation Scenario
 
 - POST: simulation/run
 
-### ML Pipeline
+### 7. ML Pipeline
 
 - POST: ml/dataset/upload
 - POST: ml/model/train
