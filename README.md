@@ -239,4 +239,3 @@ This proactive approach helps organizations reduce energy waste, improve system 
 
 Python Developer
 
-FastAPI • React • Machine Learning
